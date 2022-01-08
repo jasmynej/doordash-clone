@@ -4,7 +4,7 @@
 
 2. for now, run both separately 
 
-## project structrue
-frontend ->  react
-backend -> express
+## project structure
+frontend ->  react \n
+backend -> express \n
 database -> postgresql
