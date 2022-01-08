@@ -5,6 +5,6 @@
 2. for now, run both separately 
 
 ## project structure
-frontend ->  react \n
-backend -> express \n
-database -> postgresql
+- frontend ->  react
+- backend -> express
+- database -> postgresql
