@@ -1,0 +1,104 @@
+*{
+    font-family: 'Poppins', sans-serif; 
+}
+.landing-box {
+    background: #B62A30;
+    background-image: url("https://image.freepik.com/free-photo/indian-food-circular-frame-with-copy-space_23-2148747658.jpg");
+    background-size: cover;
+    height: 72vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.top-bar {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    flex:10%;
+    align-items: center;
+    background-color: rgba(255, 99, 71, 0.70);
+    
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    flex: 90%;
+    background-color: rgba(255, 99, 71, 0.70);
+}
+.search {
+    display:flex;
+    border-radius: 30px;
+   background-color: white;
+    width: 33%;
+    align-self: center;
+}
+.search-box h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.search-box input {
+    width: 90%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    align-self: center;
+}
+
+.search button {
+    border-radius: 30px;
+    border: none;
+    width: 60px;
+    color: white;
+    background-color: #EB1600;
+}
+.head-title {
+    display: flex; 
+}
+
+.user-controls {
+    display: flex;
+}
+
+.top-bar h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#in {
+    color: white;
+    border: none;
+    background: none;
+}
+#up {
+    background-color: white;
+   
+    border-radius: 40px;
+    border: none;
+}
+
+.user-controls button {
+    width: 100px;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.space p {
+    color: rgba(216, 191, 216, 0);
+    
+}
+.space {
+    width: 15%;
+}
