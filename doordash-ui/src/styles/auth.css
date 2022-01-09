@@ -38,6 +38,10 @@ button{
 #apple {
     background-color: black;
 }
+
+.login-buttons img {
+    width: 30px;
+}
 .log-in-container h2 {
     font-weight: 700;
 }

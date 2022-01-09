@@ -9,9 +9,9 @@ function UserSignIn() {
                     <h2>Sign In</h2>
                     <p>New to DoorDash? <span>Sign Up</span></p>
                     <div className="login-buttons">
-                        <button id="facebook">Continue with Facebook</button>
-                        <button id="google">Continue with Google</button>
-                        <button id="apple">Continue with Apple</button>
+                        <button id="facebook"><img src="/facebook_icon.png"/>Continue with Facebook</button>
+                        <button id="google"> <img src="/google_icon.png"/>Continue with Google</button>
+                        <button id="apple"> <img src="/apple_icon.png"/>Continue with Apple</button>
                     </div>
                     <p>continue with email</p>
                     <form>
