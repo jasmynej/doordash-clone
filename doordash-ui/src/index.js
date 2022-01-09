@@ -8,10 +8,12 @@ import {
   Route
 } from "react-router-dom";
 import App from './App';
+import UserSignIn from './screens/UserSignIn'
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App/>}/>
+      <Route path="/user/sign-in" element={<UserSignIn/>}/>
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

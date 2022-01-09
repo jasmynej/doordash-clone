@@ -3,6 +3,7 @@ import './App.css';
 import './styles/landing-page.css'
 import favs from './data/favs';
 import LandingPageFav from './components/landingRes';
+import {Link} from "react-router-dom"
 function App() {
   return (
     <div className='main-container'>
@@ -13,7 +14,10 @@ function App() {
             <h2>DOORDASH</h2>
           </div>
           <div className='user-controls'>
-            <button id="in">Sign In</button>
+            <Link to="/user/sign-in">
+              <button id="in">Sign In</button>
+            </Link>
+            
             <button id="up">Sign Up</button>
           </div>
           

@@ -1,0 +1,15 @@
+.simple-nav {
+    border-bottom: gainsboro solid 1px;
+}
+
+.simple-nav h1 {
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: #FF2F07;
+}
+
+.simple-nav img {
+    width: 40px;
+}

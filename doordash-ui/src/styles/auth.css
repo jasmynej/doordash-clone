@@ -1,0 +1,74 @@
+.sign-in {
+    height: 70vh;
+    border-bottom:gainsboro solid 1px ;
+    
+    
+    display: flex;
+    justify-content: center;
+}
+
+.log-in-container {
+    margin-top: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 5px;
+    border: none;
+    padding: 5px;
+    border-radius: 55px;
+    color: white;
+}
+
+#facebook {
+    background-color: #15296d;
+}
+
+#google {
+    background-color: #4476e0;
+}
+
+#apple {
+    background-color: black;
+}
+.log-in-container h2 {
+    font-weight: 700;
+}
+
+.log-in-container p {
+    color: rgb(160, 160, 160);
+
+}
+
+.log-in-container span {
+    color: #FF2F07;
+}
+
+.footer {
+    height: 40vh;
+    border-top:gainsboro solid 1px;
+
+}
+
+input {
+    width: 100%;
+    border: none;
+    background-color: #F7F7F7;
+    padding: 5px;
+    border-radius: 10px;
+}
+form {
+    text-align: left;
+}
+
+#sign-in-button {
+    background-color:#FF2F07;
+    width: 100%;
+}
