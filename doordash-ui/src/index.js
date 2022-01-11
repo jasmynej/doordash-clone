@@ -9,11 +9,13 @@ import {
 } from "react-router-dom";
 import App from './App';
 import UserSignIn from './screens/UserSignIn'
+import Home from './screens/Home'
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App/>}/>
       <Route path="/user/sign-in" element={<UserSignIn/>}/>
+      <Route path="/home" element={<Home/>}/>
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

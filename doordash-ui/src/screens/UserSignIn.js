@@ -1,4 +1,5 @@
 import SimpleNav from "../components/SimpleNav";
+import { Link } from "react-router-dom"
 import "../styles/auth.css";
 function UserSignIn() {
     return (
@@ -23,7 +24,10 @@ function UserSignIn() {
                         <br/>
                         <input type="password"/>
                     </form>
-                    <button id="sign-in-button">Sign In</button>
+                    <Link to="/home">
+                        <button id="sign-in-button">Sign In</button>
+                    </Link>
+                    
                     
                 </div>
             </div>
