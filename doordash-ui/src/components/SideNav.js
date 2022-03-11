@@ -1,7 +1,8 @@
 import React, {useState} from "react"
 import "../styles/main-components.css"
 import classnames from 'classnames'
-import {X} from "react-bootstrap-icons"
+import {X,House} from "react-bootstrap-icons"
+import {Link, useMatch, useResolvedPath} from "react-router-dom"
 function SideNav({isMenuActive,onClose}) {
     const sideMenuClasses = classnames('side-menu', {
         'side-menu--active': isMenuActive,
@@ -15,10 +16,13 @@ function SideNav({isMenuActive,onClose}) {
         <div className="side-menu__overlay" />
         <div className={sideMenuContentClasses}>
           <button onClick={onClose} id="close-button">
-              <X color="black"/>
+              <X color="black" size={35}/>
           </button>
           
-          Side bar
+          <div className="side-nav-item">
+          <House size={20} id="nav-icon"/>
+            <p>Home</p>
+          </div>
         </div>
       </aside>
     )

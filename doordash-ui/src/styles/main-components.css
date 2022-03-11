@@ -129,3 +129,22 @@
       background-color: white;
       color: black;
   }
+
+
+  .side-nav-item {
+      display: flex;
+      padding-top: 10px;
+      border-bottom: gainsboro solid 1px;
+      
+  }
+  .side-nav-item #nav-icon {
+      margin-left: 10px;
+  }
+  .side-nav-item p {
+      margin-left: 10px;
+      font-weight: 600;
+  }
+
+  .side-nav-item:hover {
+      background-color: rgba(220, 220, 220, 0.493);
+  }
